@@ -5,14 +5,10 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Melo et~al.(2009)Melo, Nickel, and Saldanha-da Gama]{Melo2009}
-M.T. Melo, S.~Nickel, and F.~Saldanha-da Gama.
-\newblock {Facility location and supply chain management -- A review}.
-\newblock \emph{European Journal of Operational Research}, 196\penalty0
-  (2):\penalty0 401--412, July 2009.
-\newblock ISSN 03772217.
-\newblock \doi{10.1016/j.ejor.2008.05.007}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/S0377221708004104}.
+\bibitem[Farrell et~al.(2011)Farrell, Director, and
+  Falco]{farrell2011programming}
+Joyce Farrell, Art Director, and Marissa Falco.
+\newblock Programming logic and design, introductory.
+\newblock 2011.
 
 \end{thebibliography}
