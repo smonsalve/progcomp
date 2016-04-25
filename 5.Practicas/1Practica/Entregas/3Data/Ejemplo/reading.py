@@ -26,3 +26,31 @@
 
 import math
 print math.sqrt(-1)
+
+
+I/O
+Excepciones
+Estructuras de Datos (Conjuntos, Tuplas, listas, Diccionarios)
+Busquedas
+Ordenamiento (Quicksort)
+
+
+
+1
+2
+3
+6
+43
+7
+8
+4
+3
+6
+8
+
+
+
+
+
+
+

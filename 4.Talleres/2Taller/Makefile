@@ -7,9 +7,9 @@ all: clean comp open clean
 
 comp:
 	$(BUILDTEX)
-#	$(BIBTEX) $(PROJECT)
-#	$(BUILDTEX)
-#	$(BUILDTEX)
+	$(BIBTEX) $(PROJECT)
+	$(BUILDTEX)
+	$(BUILDTEX)
 
 clean:
 	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.toc *.out *~
