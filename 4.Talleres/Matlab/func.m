@@ -1,7 +1,10 @@
 function hola(thestr)
-	printf (thestr);
-endfunction
+	disp(thestr);
+end
 
-thestr = "hola Marcos"
+cadena = "hola Clase";
 
-hola(thestr)
+hola(cadena)
+
+
+

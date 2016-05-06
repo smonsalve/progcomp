@@ -1,4 +1,4 @@
-a = [1,0,0;0,1,0;0,0,1];
+a = [1,1,0;0,1,0;0,0,1];
 %disp(a)
 
 function es_diagonal(orden, mat)
