@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage{samstyle} 
+
+\newcommand{\NuevaPagina}[1]{\newpage
+\mbox{
+\begin{minipage}{3cm}
+    \includegraphics[width=3cm]{logo}
+\end{minipage}
+\begin{minipage}{14.7cm}
+  \begin{flushright}
+\hfill Página #1 \hfill Primer parcial-ST0240 \hfill Marzo
+\hfill Código: \rule{4cm}{0.3pt}
+  \end{flushright}
+\end{minipage}}\vspace{3pt}
+
+\rule{18cm}{1.5pt}}
+
+%%% COMIENZO DE DOCUMENTO %%%
+\begin{document}
+\pagestyle{empty}
+%%% Encabezado
+\mbox{
+    \begin{minipage}{5cm}
+        \includegraphics[width=5cm]{logo}
+    \end{minipage}
+    \begin{minipage}{13cm}
+    \begin{center}
+        \textsl{
+        \textbf{\Large Escuela de Ingenierías}\\
+        \textbf{\large Programación de Computadores - ST0240}\\
+        \textbf{\large Práctica 2 (Valor 20\%)}}
+    \end{center}
+    \end{minipage}
+}
+\begin{flushright}
+  \begin{minipage}{4.5cm}
+    Nota: \hrulefill
+  \end{minipage}
+\end{flushright}\vspace{-2mm}
+
+% Nombre: \rule{9cm}{0.3pt} \; Código: \hrulefill\vspace{6pt}
+
+Profesor: \underbar{\hspace{1cm} Sergio Monsalve
+\hspace{3.1cm}} \; \hfill Grupo: \underbar{\hspace{1cm} 063 } \;
+Mayo \underbar{\hspace{1cm}} de 2016 \rule{18cm}{1.5pt}
+%%% Fin del encabezado
+
+\section{test} % (fold)
+\label{sec:test}
+
+% section test (end)
+
+\end{document}
